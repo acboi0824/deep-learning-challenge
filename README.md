@@ -21,16 +21,16 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 # Steps Taken:
 ## 1: Data Preprocessing
 - Dataset was checked for null and duplicated values
-insert image
+![nulls](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/null%20and%20dupes.PNG)
 
 - EIN and NAME—Identification columns removed from the input data because they are neither targets nor features
-insert image
+![drop columns](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/drop%20columns.PNG)
 
 - Created cutoff point to bin "rare" categorical variables together in a new value, Other for both CLASSIFICATION and APPLICATION_TYPE
-insert image
-insert image
+![bins](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/bins.PNG)
 
 - Converted categorical data to numeric with pd.get_dummies, split the preprocessed data into features and target arrays, then lastly split into training and tesing datasets
+! [dummy](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/dummies%20split%20and%20scale.PNG)
 
 ## 2: Compiling, Training, and Evaluating the Model
 I build the first model with the following parameters with low computation time in mind:
