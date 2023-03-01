@@ -38,10 +38,10 @@ I build the first model with the following parameters with low computation time 
 - 2 hidden layers with 5, 10 neurons split. With a hidden layer activation function of relu as this our go to for first model.
 Output node is 1 as it was binary classifier model with only one output: was the funding application succesful yes or no. And an output layer activation of sigmoid as the model output is binary classification between 0 and 1.
 
-image of 1st results
+![first results](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/attempt%201%20results.PNG)
 
 - I then increased the hidden layers to 3 and set the third hidden layer at 40 as the model prediction accuracy was below 75%:
- image of second results
+![second results](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/attempt%202%20results.PNG)
  
 ## 3: Optimize the Model
 I decided to use an automated model optimizer to get the most accurate model possible by creating method that creates a keras Sequential model using the keras-tuner library with hyperparametes options.
@@ -49,6 +49,6 @@ I decided to use an automated model optimizer to get the most accurate model pos
 hyper tuner code here
 
 The best model from the keras tuner method achieved 73% prediction accuracy using a relu activation function with input node of 76, 5 hidden layers at a 26, 1, 16, 1, 26 neurons split and 34 training epochs.
-![hyper tuner](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![hyper tuner](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/attempt%203%20results.PNG "Logo Title Text 1")
  
  
