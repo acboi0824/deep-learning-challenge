@@ -20,7 +20,8 @@ From Alphabet Soup’s business team, you have received a CSV containing more th
 
 # Steps Taken:
 ## 1: Data Preprocessing
-- Dataset was checked for null and duplicated values
+- Dataset was checked for null and duplicated values 
+
 ![nulls](https://github.com/acboi0824/deep-learning-challenge/blob/main/images/null%20and%20dupes.PNG)
 
 - EIN and NAME—Identification columns removed from the input data because they are neither targets nor features
